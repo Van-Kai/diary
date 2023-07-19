@@ -31,7 +31,7 @@ index_html = """
     }
 
     body {
-        background: #f5f5f7;
+        background: linear-gradient(to bottom right, #0184cf, #77A1D3, #a0eacf);
     }
 
     .container {
@@ -43,19 +43,9 @@ index_html = """
         font-weight: bold;
         letter-spacing: 2px;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    }
-
-    .container::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to right, #ff7f00, #ffbf00, #ff7f00);
+        background: -webkit-linear-gradient(left, #ff7f00, #ffbf00, #ff7f00);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        z-index: -1;
     }
 
     section {
@@ -66,7 +56,6 @@ index_html = """
         min-height: 100vh;
     }
 </style>
-
 
 
 
