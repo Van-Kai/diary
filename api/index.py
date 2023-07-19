@@ -19,8 +19,7 @@ index_html = """
 <body>
     <section>
         <div class="container">
-            加我微信：644566242
-            v我50
+            wechat:  dongstop5
         </div>
     </section>
 </body>
