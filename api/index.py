@@ -39,13 +39,23 @@ index_html = """
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(to right, #f9fafa, #f6f6f7, #f3f3f4, #f0f0f1, #ededef);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         letter-spacing: 2px;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .container::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, #ff7f00, #ffbf00, #ff7f00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        z-index: -1;
     }
 
     section {
@@ -56,6 +66,7 @@ index_html = """
         min-height: 100vh;
     }
 </style>
+
 
 
 
