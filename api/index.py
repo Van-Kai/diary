@@ -31,7 +31,7 @@ index_html = """
     }
 
     body {
-        background: linear-gradient(to bottom right, #0184cf, #77A1D3, #a0eacf);
+        background: #f5f5f7;
     }
 
     .container {
@@ -39,10 +39,13 @@ index_html = """
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(to right, red, yellow);
+        background: linear-gradient(to right, #f9fafa, #f6f6f7, #f3f3f4, #f0f0f1, #ededef);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     }
 
     section {
@@ -53,6 +56,7 @@ index_html = """
         min-height: 100vh;
     }
 </style>
+
 
 
 </html>
