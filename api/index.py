@@ -39,8 +39,10 @@ index_html = """
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
-        font-size: 20px;
+        background: linear-gradient(to right, red, yellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 30px;
     }
 
     section {
@@ -51,6 +53,7 @@ index_html = """
         min-height: 100vh;
     }
 </style>
+
 
 </html>
 """
