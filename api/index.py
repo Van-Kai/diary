@@ -39,13 +39,13 @@ index_html = """
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
         letter-spacing: 2px;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
         background: -webkit-linear-gradient(left, #ff7f00, #ffbf00, #ff7f00);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: white;
     }
 
     section {
@@ -56,7 +56,6 @@ index_html = """
         min-height: 100vh;
     }
 </style>
-
 
 
 </html>
