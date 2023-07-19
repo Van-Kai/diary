@@ -40,7 +40,7 @@ index_html = """
         justify-content: center;
         align-items: center;
         color: white;
-        font-size: 100px;
+        font-size: 20px;
     }
 
     section {
