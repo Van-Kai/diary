@@ -13,13 +13,13 @@ index_html = """
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon"
         href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/svgs/regular/calendar-check.svg">
-    <title>dongstop.link</title>
+    <title>dongstop</title>
 </head>
 
 <body>
     <section>
         <div class="container">
-            wechat:  dongstop5
+            服务器维护 暂不可用
         </div>
     </section>
 </body>
