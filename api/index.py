@@ -19,7 +19,7 @@ index_html = """
 <body>
     <section>
         <div class="container">
-            服务器维护 暂不可用
+            如不可用请稍候再试
         </div>
     </section>
 </body>
