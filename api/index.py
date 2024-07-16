@@ -153,8 +153,8 @@ show_html = '''
 
 
 @app.get('/')
-async def handler():
-    return HTMLResponse(html)
+async def index():
+    return HTMLResponse(index_html)
 
 
 
